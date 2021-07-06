@@ -1,0 +1,65 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 1100;
+}
+
+section {
+    display: flex;
+    padding: 40px 40px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.font-color {
+    color: tomato;
+}
+
+.adding-button {
+    background-image: linear-gradient(tomato, orange);
+    color: white;
+    padding: 9px 14px;
+    border-radius: 20px;
+}
+
+.first-section {
+
+    margin-bottom: 50px;
+    padding-top: 200px;
+    padding-left: 150px;
+}
+
+.half-width {
+    width: 40%;
+
+}
+
+.half-width img {
+    width: 400px;
+    max-width: 90%;
+    height: auto;
+
+
+}
+
+#about-section {
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+
+}
+
+.about-me {
+    color: grey;
+    font-size: 50px;
+
+}
