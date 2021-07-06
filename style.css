@@ -111,6 +111,28 @@ section {
     width: 100%;
 }
 
+/*fourth section */
+.fourth-section {
+    margin-bottom: 100px;
+    padding: 20px 40px;
+    background-image: linear-gradient(rgba(255, 182, 193, 0.753), rgba(243, 239, 26, 0.555));
+}
+
+.fourth-section h2 {
+    text-align: center;
+}
+
+.fourth-section .adding-button {
+    margin-left: 550px;
+}
+
+#email {
+    margin-left: 500px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
 /*last part */
 
 #last-part {
