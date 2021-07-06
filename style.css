@@ -104,7 +104,10 @@ section {
     box-shadow: 0 0 15px 5px gray;
     border-radius: 25px;
     padding: 5px 10px;
+}
 
+.food p {
+    color: dimgrey;
 }
 
 .food img {
