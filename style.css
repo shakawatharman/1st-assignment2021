@@ -4,19 +4,26 @@ body {
     margin: 0;
 }
 
-h1 {
-    font-size: 50px;
-    font-weight: 1100;
+a {
+    text-decoration: none;
 }
 
 section {
     display: flex;
-    padding: 40px 40px;
-
+    margin: 50px 0;
+    width: 100%;
 }
 
-a {
-    text-decoration: none;
+/*first section*/
+
+.first-section {
+    padding: 40px 0;
+}
+
+.first-section h1 {
+    font-size: 50px;
+    font-weight: 1100;
+    padding-top: 20px;
 }
 
 .font-color {
@@ -30,36 +37,97 @@ a {
     border-radius: 20px;
 }
 
-.first-section {
+.container {
+    display: flex;
+    width: 90%;
+    margin: 0 0;
+}
 
-    margin-bottom: 50px;
-    padding-top: 200px;
-    padding-left: 150px;
+#image-1 {
+    width: 100%;
 }
 
 .half-width {
-    width: 40%;
-
+    width: 50%;
+    padding-left: 150px;
 }
 
 .half-width img {
-    width: 400px;
-    max-width: 90%;
+    width: 300px;
     height: auto;
-
-
 }
 
-#about-section {
-    background-image: url(images/bg-2.png);
+/* second section */
+
+#second-section {
+    background-image: url(./images/bg-2.jpg);
+    background-position: left;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 700px;
+}
+
+.about-txt {
+    color: gray;
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+/*third section */
+
+
+.third-section-title h2 {
+    text-align: center;
+    font-size: 40px;
+    color: gray;
+    margin: 0 auto;
 
 }
 
-.about-me {
-    color: grey;
-    font-size: 50px;
+.third-section-title p {
+    text-align: center;
+}
 
+.food-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    margin: 30px 100px;
+    padding: 30px 50px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.food {
+    height: auto;
+    width: 28%;
+    box-shadow: 0 0 15px 5px gray;
+    border-radius: 25px;
+    padding: 5px 10px;
+
+}
+
+.food img {
+    width: 100%;
+}
+
+/*last part */
+
+#last-part {
+    background-color: black;
+    padding: 10px 30px;
+
+}
+
+#last-part h2 {
+    text-align: center;
+}
+
+#last-part footer p {
+    text-align: center;
+    color: dimgrey;
+}
+
+.text-color {
+    color: gray;
 }
